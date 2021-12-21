@@ -1,31 +1,57 @@
-body {
-  background-color: #ffffff;
+:root {
+  --logo-header-color: #000000;
+  --logo-footer-color: #ffffff;
+  --accent-color: #2196f3;
 }
 
-.logo {
-  color: #000000;
+body {
+  background-color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.header-logo,
+.footer-logo {
+  font-family: 'Raleway', sans-serif;
   font-size: 26px;
   font-weight: 700;
   text-decoration: none;
 }
 
-.accent {
-  color: #2196f3;
+.header-logo {
+  color: var(--logo-header-color);
 }
 
-.site-nav a {
+.footer-logo {
+  color: var(--logo-footer-color);
+}
+
+.accent {
+  color: var(--accent-color);
+}
+
+.header-list .header-link {
   color: #212121;
   font-size: 14px;
   font-weight: 500;
 }
 
-.site-nav a :hover,
-.site-nav a :focus {
-  color: #2196f3;
+.header-list .header-link.current {
+  color: var(--accent-color);
 }
 
-.link {
-  text-decoration: none;
+.header-list .header-link:hover,
+.header-list .header-link:focus,
+.contacts a:hover,
+.contacts a:focus {
+  color: var(--accent-color);
 }
 
 .contacts a {
@@ -33,11 +59,6 @@ body {
   font-size: 14px;
   font-weight: 500;
   text-decoration: none;
-}
-
-.contacts a:hover,
-.contacts a:focus {
-  color: #2196f3;
 }
 
 .title-hero {
@@ -51,9 +72,15 @@ body {
 .button {
   color: #ffffff;
   background-color: #2196f3;
+  font-family: inherit;
   font-size: 16px;
   font-weight: 700;
   line-height: 1.8;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #188ce8;
 }
 
 .title-features {
@@ -92,24 +119,30 @@ body {
   line-height: 1.2;
 }
 
-.contacts-footer {
+.footer-list .footer-link {
   color: #ffffff;
-  background-color: #2f303a;
+  font-style: normal;
   font-size: 14px;
   font-weight: 400;
   line-height: 1.7;
 }
 
-.filter-button {
+.footer-list .footer-link:hover,
+.footer-list .footer-link:focus {
+  color: #2196f3;
+}
+
+.list .filter-button {
   color: #212121;
   background-color: #f5f4fa;
+  font-family: inherit;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.6;
 }
 
-.filter-button :hover,
-.filter-button :focus {
+.list .filter-button:hover,
+.list .filter-button:focus {
   color: #ffffff;
   background-color: #2196f3;
 }
@@ -128,6 +161,6 @@ body {
   line-height: 1.8;
 }
 
-.list {
-  list-style: none;
+.footer {
+  background-color: #2f303a;
 }

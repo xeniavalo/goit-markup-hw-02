@@ -5,26 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Студия</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
     <!--Шапка сайта-->
-    <header>
-        <nav>
-            <a class="logo" href="./index.html">
-                <span class="accent">Web</span>Studio
-            </a>
-            
-            <!-- Навигация по сайту -->
-            <ul class="list">
-                <li class="site-nav">
-                    <a href="./index.html" class="link">Студия</a>
+    <header class="header">
+        <a lang="en" class="header-logo link" href="./index.html">
+            <span class="accent">Web</span>Studio
+        </a>
+        <!-- Навигация по сайту -->
+        <nav class="header-nav">
+            <ul class="list header-list">
+                <li class="header-item">
+                    <a class="link header-link current" href="./index.html">Студия</a>
                 </li>
-                <li class="site-nav">
-                    <a href="./portfolio.html" class="link">Портфолио</a>
+                <li class="header-item">
+                    <a class="link header-link" href="./portfolio.html">Портфолио</a>
                 </li>
-                <li class="site-nav">
-                    <a href="#" class="link">Контакты</a>
+                <li class="header-item">
+                    <a class="link header-link" href="#">Контакты</a>
                 </li>
             </ul>
         </nav>
@@ -101,7 +104,7 @@
                     <img src="./images/team/igor-demyanenko.jpg" alt="Игорь Демьяненко" width="270" height="260">
                     <div>
                         <h3 class="team-names">Игорь Демьяненко</h3>
-                        <p class="team-position">
+                        <p lang="en" class="team-position">
                             Product Designer
                         </p>
                     </div>
@@ -110,7 +113,7 @@
                     <img src="./images/team/olga-repina.jpg" alt="Ольга Репина" width="270" height="260">
                     <div>
                         <h3 class="team-names">Ольга Репина</h3>
-                        <p class="team-position">
+                        <p lang="en" class="team-position">
                             Frontend Developer
                         </p>
                     </div>
@@ -119,7 +122,7 @@
                     <img src="./images/team/nikolaj-tarasov.jpg" alt="Николай Тарасов" width="270" height="260">
                     <div>
                         <h3 class="team-names">Николай Тарасов</h3>
-                        <p class="team-position">
+                        <p lang="en" class="team-position">
                             Marketing
                         </p>
                     </div>
@@ -128,7 +131,7 @@
                     <img src="./images/team/mixail-ermakov.jpg" alt="Михаил Ермаков" width="270" height="260">
                     <div>
                         <h3 class="team-names">Михаил Ермаков</h3>
-                        <p class="team-position">
+                        <p lang="en" class="team-position">
                             UI Designer
                         </p>
                     </div>
@@ -138,24 +141,24 @@
     </main>
 
     <!-- Футер -->
-    <footer>
-        <a class="logo" href="./index.html">
+    <footer class="footer">
+        <a lang="en" class="footer-logo link" href="./index.html">
             <span class="accent">Web</span>Studio
         </a>
-
+    
         <address>
-            <ul class="list">
-                <li class="contacts-footer">
-                    <a href="https://goo.gl/maps/ZjUaNVmYofjeCFXA8" target="_blank" rel="noreferrer noopener" class="link">г. Киев, пр-т Леси Украинки, 26</a>
+            <ul class="list footer-list">
+                <li class="footer item">
+                    <a class="link footer-link" href="https://goo.gl/maps/ZjUaNVmYofjeCFXA8" target="_blank" rel="noreferrer noopener">г. Киев, пр-т Леси Украинки, 26</a>
                 </li>
-                <li class="contacts-footer"
-                    <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
+                <li class="footer item" >
+                    <a class="link footer-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
                 </li>
-                <li class="contacts-footer"
-                    <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
+                <li class="footer item">
+                    <a class="link footer-link" href="tel:+380961111111">+38 096 111 11 11</a>
                 </li>
             </ul>
-        </address>            
+        </address>
     </footer>
 </body>
 </html>
