@@ -14,17 +14,17 @@
 <body>
     <!--Шапка сайта-->
     <header class="header">
-        <a lang="en" class="header-logo link" href="./index.html">
-            <span class="accent">Web</span>Studio
+        <a lang="en" class="logo link" href="./index.html">
+            Web<span class="header-logo">Studio</span>
         </a>
         <!-- Навигация по сайту -->
         <nav class="header-nav">
             <ul class="list header-list">
                 <li class="header-item">
-                    <a class="link header-link" href="./index.html">Студия</a>
+                    <a class="link header-link current" href="./index.html">Студия</a>
                 </li>
                 <li class="header-item">
-                    <a class="link header-link current" href="./portfolio.html">Портфолио</a>
+                    <a class="link header-link" href="./portfolio.html">Портфолио</a>
                 </li>
                 <li class="header-item">
                     <a class="link header-link" href="#">Контакты</a>
@@ -32,19 +32,19 @@
             </ul>
         </nav>
     
-        <ul class="list">
-            <li class="contacts">
-                <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+        <ul class="list contacts-list">
+            <li class="contacts-item">
+                <a class="header-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
             </li>
-            <li class="contacts">
-                <a href="tel:+380961111111">+38 096 111 11 11</a>
+            <li class="contacts-item">
+                <a class="header-link link" href="tel:+380961111111">+38 096 111 11 11</a>
             </li>
         </ul>
     </header>
 
     <main>
-        <section>
-            <!-- <h1>Наши работы</h1> --> 
+        <section class="projects">
+            <h1 class="visually-hidden">Наши работы</h1>
             <ul class="list">
                 <li>
                     <button class="filter-button" type="button">Все</button>
@@ -65,49 +65,71 @@
 
             <ul class="list">
                 <li>
-                    <img src="./images/portfolio/proekt-texnokryak.jpg" alt="Сайт Технокряк" width="370" height="294">
-                    <h2 class="title-project">Технокряк</h2>
-                    <p class="text-project">Веб-сайт</p>
+                    <a class="link" href="#" target="_blank" rel="noreferrer noopener">
+                        <img src="./images/portfolio/proekt-texnokryak.jpg" alt="Сайт Технокряк" width="370" height="294">
+                        <h2 class="project-title">Технокряк</h2>
+                        <p class="project-text">Веб-сайт</p>
+                   </a> 
+                    
                 </li>
                 <li>
-                    <img src="./images/portfolio/poster-new-orlean-vs-golden-star.jpg" alt="Постер с баскетболистами" width="370" height="294">
-                    <h2 class="title-project">Постер <span lang="en">Orlean vs Golden Star</span></h2>
-                    <p class="text-project">Дизайн</p>
+                    <a class="link" href="#" target="_blank" rel="noreferrer noopener">
+                        <img src="./images/portfolio/poster-new-orlean-vs-golden-star.jpg" alt="Постер с баскетболистами" width="370"
+                        height="294">
+                        <h2 class="project-title">Постер <span lang="en">Orlean vs Golden Star</span></h2>
+                        <p class="project-text">Дизайн</p>
+                    </a>
                 </li>
                 <li>
-                    <img src="./images/portfolio/restoran-seafood.jpg" alt="Логотип ресторна Seafood" width="370" height="294">
-                    <h2 class="title-project">Ресторан <span lang="en">Seafood</span></h2>
-                    <p class="text-project">Приложение</p>
+                    <a class="link" href="#" target="_blank" rel="noreferrer noopener">
+                        <img src="./images/portfolio/restoran-seafood.jpg" alt="Логотип ресторна Seafood" width="370" height="294">
+                        <h2 class="project-title">Ресторан <span lang="en">Seafood</span></h2>
+                        <p class="project-text">Приложение</p>
+                    </a> 
                 </li>
                 <li>
-                    <img src="./images/portfolio/proekt-prime.jpg" alt="Большие наушники" width="370" height="294">
-                    <h2 class="title-project">Проект <span lang="en">Prime</span></h2>
-                    <p class="text-project">Маркетинг</p>
+                    <a class="link" href="#" target="_blank" rel="noreferrer noopener">
+                        <img src="./images/portfolio/proekt-prime.jpg" alt="Большие наушники" width="370" height="294">
+                        <h2 class="project-title">Проект <span lang="en">Prime</span></h2>
+                        <p class="project-text">Маркетинг</p>
+                    </a>
                 </li>
                 <li>
-                    <img src="./images/portfolio/proekt-boxes.jpg" alt="Две коробки с логотипом" width="370" height="294">
-                    <h2 class="title-project">Проект <span lang="en">Boxes</span></h2>
-                    <p class="text-project">Приложение</p>
+                    <a class="link" href="#" target="_blank" rel="noreferrer noopener">
+                        <img src="./images/portfolio/proekt-boxes.jpg" alt="Две коробки с логотипом" width="370" height="294">
+                        <h2 class="project-title">Проект <span lang="en">Boxes</span></h2>
+                        <p class="project-text">Приложение</p>
+                    </a>
                 </li>
                 <li>
-                    <img src="./images/portfolio/proekt-inspiration-has-no-borders.jpg" alt="Моноблок с изображением сайта компании Inspiration has no Borders" width="370" height="294">
-                    <h2 class="title-project"><span lang="en">Inspiration has no Borders</span></h2>
-                    <p class="text-project">Веб-сайт</p>
+                    <a class="link" href="#" target="_blank" rel="noreferrer noopener">
+                        <img src="./images/portfolio/proekt-inspiration-has-no-borders.jpg"
+                        alt="Моноблок с изображением сайта компании Inspiration has no Borders" width="370" height="294">
+                        <h2 class="project-title"><span lang="en">Inspiration has no Borders</span></h2>
+                        <p class="project-text">Веб-сайт</p>
+                    </a>
                 </li>
                 <li>
-                    <img src="./images/portfolio/izdanie-limited-edition.jpg" alt="Книга от Limited Edition" width="370" height="294">
-                    <h2 class="title-project">Издание <span lang="en">Limited Edition</span></h2>
-                    <p class="text-project">Дизайн</p>
+                    <a class="link" href="#" target="_blank" rel="noreferrer noopener">
+                        <img src="./images/portfolio/izdanie-limited-edition.jpg" alt="Книга от Limited Edition" width="370" height="294">
+                        <h2 class="project-title">Издание <span lang="en">Limited Edition</span></h2>
+                        <p class="project-text">Дизайн</p>
+                    </a>
                 </li>
                 <li>
-                    <img src="./images/portfolio/proekt-lab.jpg" alt="Бирка с логотипом LAB" width="370" height="294">
-                    <h2 class="title-project">Проект <span lang="en">LAB</span></h2>
-                    <p class="text-project">Маркетинг</p>
+                    <a class="link" href="#" target="_blank" rel="noreferrer noopener">
+                        <img src="./images/portfolio/proekt-lab.jpg" alt="Бирка с логотипом LAB" width="370" height="294">
+                        <h2 class="project-title">Проект <span lang="en">LAB</span></h2>
+                        <p class="project-text">Маркетинг</p>
+                    </a>  
                 </li>
                 <li>
-                    <img src="./images/portfolio/proekt-growing-business.jpg" alt="Ноутбук с изображением сайта Growing Business на экране" width="370" height="294">
-                    <h2 class="title-project"><span lang="en">Growing Business</span></h2>
-                    <p class="text-project">Приложение</p>
+                    <a class="link" href="#" target="_blank" rel="noreferrer noopener">
+                        <img src="./images/portfolio/proekt-growing-business.jpg" alt="Ноутбук с изображением сайта Growing Business на экране"
+                        width="370" height="294">
+                        <h2 class="project-title"><span lang="en">Growing Business</span></h2>
+                        <p class="project-text">Приложение</p>
+                    </a>     
                 </li>
             </ul>
         </section>
@@ -116,16 +138,17 @@
 
     <!-- Футер -->
     <footer class="footer">
-        <a lang="en" class="footer-logo link" href="./index.html">
-            <span class="accent">Web</span>Studio
+        <a lang="en" class="logo link" href="./index.html">
+            Web<span class="footer-logo">Studio</span>
         </a>
     
         <address>
             <ul class="list footer-list">
                 <li class="footer item">
-                    <a class="link footer-link" href="https://goo.gl/maps/ZjUaNVmYofjeCFXA8" target="_blank" rel="noreferrer noopener">г. Киев, пр-т Леси Украинки, 26</a>
+                    <a class="link footer-link" href="https://goo.gl/maps/ZjUaNVmYofjeCFXA8" target="_blank"
+                        rel="noreferrer noopener">г. Киев, пр-т Леси Украинки, 26</a>
                 </li>
-                <li class="footer item" >
+                <li class="footer item">
                     <a class="link footer-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
                 </li>
                 <li class="footer item">
